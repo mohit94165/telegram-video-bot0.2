@@ -1,9 +1,0 @@
-run = "python universal_bot.py"
-modules = ["python-3.11"]
-
-[nix]
-channel = "stable-24_05"
-
-[deployment]
-run = ["sh", "-c", "python universal_bot.py"]
-deploymentTarget = "cloudrun"
